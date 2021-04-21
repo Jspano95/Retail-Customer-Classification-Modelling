@@ -1,9 +1,14 @@
 # Retail-Customer-Classification-Modelling
  Classification models for predicting customer outcomes in an unbalanced classification setting, with outcomes dependent on customer demographics (age, post_code, gender) as well shopping frequencies and average spends by department etc.
+ 
+### PURPOSE OF PROJECT: 
+- The overarching purpose of these models (this project) is to determine why some loyalty customers have chosen to opt into email marketing and others have chosen to opt out. The data shows that those customers who opt in have higher average spends, thus it is important to determine whether customers who are already spending more choose to opt in or whether opting in results in a higher average spend. To determine this, I construct various data features which capture demographics of customers and utilise various classification models to determine outcomes based off the input demographics / data features. A desired takeaways is to understand what features underpin each group and inform decisions on how to influence customers to opt into email marketing.
 
-Original data is 52K entries of sales data across 12+ departments and several hundred unique customers with unique individual characteristics: post code, age, gender, shopping frequency and average spend across different departments
+#### THE DATA:
+- Original data is 52K entries of sales data across 12+ departments and several hundred unique customers with unique individual characteristics: post code, age, gender, shopping frequency and average spend across different departments. The data ranges from 2019 to early 2021 (~ 2Y )
 
-After initial data exploration, I create a variety of features for the classification models:
+#### PROJECT FLOW:
+After initial data exploration and data cleaning, I create a variety of features for the classification models:
 - Customer Duration (Time between first and last transactions)
 - One-Hot Encode post code data by customer, customer gender, department sales frequencies by customer
 - Standardise these variables without mean (Ex. post-code) to preserve the sparse matrix nature of the data + (the age variable)
