@@ -21,4 +21,4 @@ Support Vector Classifier
 XGBoost Classifier
 Soft & Hard Voting Classifiers
 
-# the final result is the tuned support vector classifier as the clear winner with 90% accuracy on the training data and ~96% on the test data
+#### the final result is the tuned support vector classifier as the clear winner with 90% accuracy on the training data and ~96% on the test data
