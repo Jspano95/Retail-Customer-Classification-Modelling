@@ -12,13 +12,13 @@ A severe class imbalance problem was present between customers who opted into em
 - Also tried downscaling the majority class in a separate iteration and found the former method to be superior
 
 I first run the following models before tuning and compare performance (accuracy) across the average of (5) cross validations on the training data:
-Naive Bayes (baseline measurement)
-Logistic Regression
-Decision Tree Classifier
-Random Forest Classifier
-K-nearest neighbors
-Support Vector Classifier
-XGBoost Classifier
-Soft & Hard Voting Classifiers
+- Naive Bayes (baseline measurement)
+- Logistic Regression
+- Decision Tree Classifier
+- Random Forest Classifier
+- K-nearest neighbors
+- Support Vector Classifier
+- XGBoost Classifier
+- Soft & Hard Voting Classifiers
 
 #### the final result is the tuned support vector classifier as the clear winner with 90% accuracy on the training data and ~96% on the test data
