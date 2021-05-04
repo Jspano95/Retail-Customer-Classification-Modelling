@@ -10,7 +10,7 @@
 #### PROJECT FLOW:
 After initial data exploration and data cleaning, I create a variety of features for the classification models:
 - Customer Duration (Time between first and last transactions)
-- One-Hot Encode post code data by customer, customer gender, department sales frequencies by customer
+- One-Hot Encode: post code data by customer, customer gender, and department sales frequencies by customer
 - Standardise these variables without mean (Ex. post-code) to preserve the sparse matrix nature of the data + (the age variable)
 
 A severe class imbalance problem was present between customers who opted into email marketing (majority class) vs those who didn't (minority class). To remedy this, I upscaled the minority class with replacement to balance the two classes
